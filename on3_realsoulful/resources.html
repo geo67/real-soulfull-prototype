@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+
+    <meta charset="utf-8"/>
+    <title>Resources</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <!--[if lte IE 9]>
+     <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/soul-central.css"/> 
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>   
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
+    <link rel="stylesheet" type="text/css" href="css/modals.css"/>    
+    <link rel="stylesheet" type="text/css" href="css/tooltips.css"/>    
+    <link rel="stylesheet" type="text/css" href="css/tabs.css"/>      
+    <script src="js/jquery.min.js"></script>   
+
+</head>
+<body>
+    <div id="soul-central" class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1><a href="index.html">RealSoulful</a></h1>      
+            <ul class="sub-nav">
+                <li><a href="#">Settings</a></li>
+                <li>|</li>
+                <li><a href="#">Log Out</a></li>
+            </ul>                
+        </header> <!-- header ends here -->
+
+        <div class="sub-header-cont">
+
+            <img src="img/photo-placer.png" alt="photo-icon"/>
+            <div class="slogan-container">
+                <em class="fancy-text">&#8220;</em>
+                <h1>Mantra</h1>
+                <p>Lorem Ipsum dolar sit amet...</p>
+                <a href="#">Change Mantra</a>
+                <em class="fancy-text">&#8221;</em>
+            </div>
+
+        </div>
+        <div class="mvp-container"><!-- page container starts here -->
+
+            <aside >
+                <ul class="comm-stream-nav">
+                    <li><button>Tiff's Daily Tips/Ideas</button></li>
+                    <li><button>Events</button></li>
+                    <li><button>Guests</button></li>
+                    <li><button>Sponsors</button></li>                 
+                </ul>
+            </aside>
+          
+            <div class="comm-stream-container"> <!-- comm stream container start -->
+
+                <div class="comm-stream-widget-container"> <!-- comm stream container widget starts -->
+                    <div class="comm-stream-widget">
+                        <img src="img/photo-placer.png" alt="photo-icon"/>
+                        <div class="widget-content-wrapper">
+                            <h3>Guest 1</h3>
+                            <p>Lorem Ipsum...</p>
+                            <a href="#">Read More</a>
+                            <ul>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- comm stream container widget ends -->
+
+                <div class="comm-stream-widget-container"> <!-- comm stream container widget starts -->
+                    <div class="comm-stream-widget">
+                        <img src="img/photo-placer.png" alt="photo-icon"/>
+                        <div class="widget-content-wrapper">
+                            <h3>Guest 2</h3>
+                            <p>Lorem Ipsum...</p>
+                            <a href="#">Read More</a>
+                            <ul>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- comm stream container widget ends -->
+
+                <div class="comm-stream-widget-container"> <!-- comm stream container widget starts -->
+                    <div class="comm-stream-widget">
+                        <img src="img/photo-placer.png" alt="photo-icon"/>
+                        <div class="widget-content-wrapper">
+                            <h3>Guest 3</h3>
+                            <p>Lorem Ipsum...</p>
+                            <a href="#">Read More</a>
+                            <ul>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>
+                                <li>button</li>                                
+                            </ul>
+                        </div>
+                    </div>
+
+                </div><!-- comm stream container widget ends -->
+
+            </div> <!-- comm stream widget container end -->
+
+        </div><!-- page container ends here -->
+    <div id="carousel">
+        <div id="buttons">
+            <a href="#" id="prev">prev</a>
+            <a href="#" id="next">next</a>
+            <div class="clear"></div>
+        </div>
+        
+        <div class="clear"></div>
+        <div id="slides">
+            <ul>
+                <li><img src="slide1.gif" width="240" height="240" alt="Slide 1"/>Ad 1</li>
+                <li><img src="slide2.gif" width="240" height="240" alt="Slide 2"/>Ad 2</li>
+                <li><img src="slide3.gif" width="240" height="240" alt="Slide 3"/>Ad 3</li>
+                <li><img src="slide4.gif" width="240" height="240" alt="Slide 4"/>Ad 4</li>
+                <li><img src="slide5.gif" width="240" height="240" alt="Slide 5"/>Ad 5</li>
+                <li><img src="slide6.gif" width="240" height="240" alt="Slide 6"/>Ad 6</li>                
+            </ul>
+            <div class="clear"></div>
+        </div>
+    </div>
+    <div><!-- page wrapper ends here -->
+
+<script type="text/javascript" src="./js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+<script>
+    $(document).ready(function() {
+        //rotation speed and timer
+        var speed = 5000;
+        var run = setInterval('rotate()', speed);    
+        
+        //grab the width and calculate left value
+        var item_width = $('#slides li').outerWidth();
+        var left_value = item_width * (0);
+    //move the last item before first item, just in case user click prev button
+        $('#slides li:first').before($('#slides li:last'));
+        
+        //set the default item to the correct position
+        $('#slides ul').css({'left' : left_value});
+    //if user clicked on prev button
+        $('#prev').click(function() {
+            //get the right position
+            var left_indent = parseInt($('#slides ul').css('left')) + item_width;
+            //slide the item
+            $('#slides ul').animate({'left' : left_indent}, 200,function(){
+    //move the last item and put it as first item     
+                $('#slides li:first').before($('#slides li:last'));
+                //set the default item to correct position
+                $('#slides ul').css({'left' : left_value});
+            
+            });
+            //cancel the link behavior
+            return false;
+        });
+    //if user clicked on next button
+        $('#next').click(function() {
+            
+            //get the right position
+            var left_indent = parseInt($('#slides ul').css('left')) - item_width;
+            
+            //slide the item
+            $('#slides ul').animate({'left' : left_indent}, 200, function () {
+    //move the first item and put it as last item
+                $('#slides li:last').after($('#slides li:first'));     
+                
+                //set the default item to correct position
+                $('#slides ul').css({'left' : left_value});
+            
+            });
+            
+            //cancel the link behavior
+            return false;
+            
+        });
+        
+        //if mouse hover, pause the auto rotation, otherwise rotate it
+        $('#slides').hover(
+            
+            function() {
+                clearInterval(run);
+            },
+            function() {
+                run = setInterval('rotate()', speed);    
+            }
+        );
+    });
+    //a simple function to click next link
+    //a timer will call this function, and the rotation will begin :)
+    function rotate() {
+        $('#next').click();
+    }
+    </script>
+        
+</body>
+</html>  

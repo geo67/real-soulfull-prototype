@@ -1,0 +1,19 @@
+﻿#range{
+margin-left:100px;
+}
+#tip{
+position:absolute;
+display:none;
+border:1px solid black;
+padding:4px;
+}
+
+.htmltooltip{
+    color:#999;
+}
+.htmltooltip button{
+    background-color: #0E76BD;
+    color:#fff;
+    border-radius:5px;   
+    margin-left:25%;
+}

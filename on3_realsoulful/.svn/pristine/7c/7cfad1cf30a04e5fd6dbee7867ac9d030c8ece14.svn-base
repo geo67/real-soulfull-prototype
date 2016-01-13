@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>RealSoulful</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        <!--[if lte IE 9]>
+         <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+        <![endif]-->
+    </head>
+
+</head>
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulFul<h1/>    
+        </header> <!-- header ends here -->
+
+        <div class="container"><!-- page container starts here -->
+
+            <h1>Welcome!</h1>
+            <p>Lorem ipsum dolar sit amet...</p>     
+
+            <div id="welcome-carousel">
+
+                <div id="welcome-carousel-wrapper">
+
+                    <a class="info-link" href="#">Learn More</a>   
+
+                    <ul>
+
+                        <li id="nav2" class="slide">
+                            <h3>Nav 1</h3>
+                            <p>Ipsum dola</p>
+                        </li>  
+                        <li id="nav3" class="slide">
+                            <h3>Nav 1</h3>
+                            <p>Ipsum dola</p>
+                        </li>  
+                        <li id="nav4" class="slide">
+                            <h3>Nav 1</h3>
+                            <p>Ipsum dola</p>
+                        </li>   
+                        <li id="nav5" class="slide">
+                            <h3>Nav 1</h3>
+                            <p>Ipsum dola</p>
+                        </li> 
+                        <li id="nav6" class="slide">
+                            <h3>Nav 1</h3>
+                            <p>Ipsum dola</p>
+                        </li>                                                                                                                        
+                    </ul>
+
+                </div>
+
+                <ul class="car-navigation">
+                    <li><a href="nav1">Nav1</a></li>
+                    <li><a href="nav2">Nav2</a></li>
+                    <li><a href="nav3">Nav3</a></li>
+                    <li><a href="nav4">Nav4</a></li>      
+                    <li><a href="nav5">Nav5</a></li>                                                                                               
+                </ul>
+
+            </div>
+
+            <aside>
+
+                <form method="post" name="log-in-form" class="form-cont"> <!-- form   sign in starts here -->
+
+                    <input class="input" type="text" placeholder="Email" name="email"/>
+                    <input class="input short-info-box" type="text" placeholder="Password" name="password"/>
+                    <div class="button">
+                        <input type="submit" value="Sign in" name="submit">
+                    </div>
+                    <div class="cbox-wrapper">
+                        <input type="checkbox" value="Remember" name="check"/>
+                        <label class="checkbox-label">Remember Me? </label>
+                        <a href="#">Forgot Password</a>
+                    </div>
+
+                </form> <!-- form sign in ends here -->
+                <form method="post" name="register-form" class="form-cont"> <!-- form sign up starts here -->
+
+                    <p>New to RealSoulful? Sign Up</p>
+                    <input class="input" type="text" placeholder="Name" name="name"/>
+                    <input class="input" type="text" placeholder="Email" name="email"/>
+                    <input class="input" type="text" placeholder="Password" name="pPassword"/>                    
+
+                    <div>
+                        <input type="checkbox" id="c1join" name="cc"/>
+                        <label class="checkbox-label" for="c1join">Join the Community</label>       
+                    </div>         
+                    <div>
+                        <input type="checkbox" id="c2terms" name="cc"/>
+                        <label  for="c1tgerms">I agree to <a href="#">Terms and Conditions</a></label>       
+                    </div>     
+                    <div class="button">
+                        <input type="submit" value="Submit" name="submit">
+                    </div>  
+
+                </form> <!-- form sign up ends here -->
+
+            </aside>
+
+        </div>
+        <footer>
+            
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+</body>
+</html>

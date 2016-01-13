@@ -1,0 +1,43 @@
+.settings-container {
+	background-color: #FFFFFF;
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	height: auto;
+	padding: 15px 15px 25px 15px;
+
+}
+
+.options-container h3 {
+	color: #0E76BC;
+	font-size: 30px;
+	margin-bottom: 8px;
+}
+
+.options-container h4 {
+  color: #0E76BC;
+  font-size: 20px;
+  border-top:1px solid #0E76BC;
+  border-bottom:1px solid #0E76BC;
+  padding-top:8px;
+  padding-bottom:8px;
+  margin-bottom:8px;
+  margin-top:8px;
+}
+
+.settings-container ul{
+
+}
+
+.settings-container li {
+  margin-bottom: 8px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.settings-container ul input, .settings-container select, .settings-container input {
+  color: #999999;
+}
+
+.settings-container a {
+  margin-top: 5px;
+}

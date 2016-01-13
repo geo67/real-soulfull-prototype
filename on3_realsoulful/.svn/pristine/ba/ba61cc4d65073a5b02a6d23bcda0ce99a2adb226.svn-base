@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Group Support</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <!--[if lte IE 9]>
+     <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+    <![endif]-->
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>   
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
+    <link rel="stylesheet" type="text/css" href="css/modals.css"/>    
+    <link rel="stylesheet" type="text/css" href="css/tooltips.css"/>     
+    <script src="js/jquery.min.js"></script>        
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1><a href="index.html">RealSoulful</a></h1>      
+            <ul class="sub-nav">
+                <li li id="clickMe1"><a href="#">Sign in</a></li>
+                <li>|</li>
+                <li li id="clickMe2"><a href="#">Join Now</a></li>
+            </ul>                
+        </header> <!-- header ends here -->
+
+        <fieldset>
+
+            <form method="post" name="register-form" class="form-cont  drop-down-form1" id="form1" > <!-- form sign up starts here -->
+
+                <p>Sign In</p>
+                <input class="input" type="text" placeholder="Email" name="email"/>
+                <input class="input" type="text" placeholder="Password" name="Password"/>                            
+                <div class="cbox-wrapper">
+                    <input class="checkbox" type="checkbox" id="c2terms" name="cc"/>
+                    <label class="checkbox-label" for="c1tgerms">Remember Me <a href="forgot-password.html">Forgot Password?</a></label>       
+                </div>     
+                <div class="button">
+                    <input type="submit" value="Sign In" name="submit">
+                </div>  
+
+            </form> <!-- form sign up ends here -->
+
+        </fieldset>
+
+        <fieldset>
+
+            <form method="post" name="register-form" class="form-cont  drop-down-form2" id="form2" > <!-- form sign up starts here -->
+
+                <p>New to RealSoulful? Sign Up</p>
+                <input class="input" type="text" placeholder="Name" name="name"/>
+                <input class="input" type="text" placeholder="Email" name="email"/>
+                <input class="input" type="text" placeholder="Password" name="Password"/>                    
+                <input class="input" type="text" placeholder="Confirm Password" name="confirm Password"/>    
+                <div>
+                    <input class="checkbox" type="checkbox" id="c1join" name="cc"/>
+                    <label class="checkbox-label" for="c1join">Join the Community</label>       
+                </div>         
+                <div>
+                    <input class="checkbox" type="checkbox" id="c2terms" name="cc"/>
+                    <label for="c1tgerms">I agree to <a href="#">Terms and Conditions</a></label>       
+                </div>     
+                <div class="button">
+                    <input type="submit" value="Submit" name="submit">
+                </div>  
+
+            </form> <!-- form sign up ends here -->
+
+        </fieldset>
+
+        <div class="mvp-container"><!-- page container starts here -->
+
+            <h1>Group Support</h1>
+
+            <ul class="mvp-nav">
+                <li><a href="#">Rock 1</a></li>
+                <li><a href="#">Rock 2</a></li>
+                <li><a href="#">Rock 3</a></li> 
+                <li><a href="#">Rock 4</a></li> 
+                <li><a href="#">Rock 5</a></li>                 
+            </ul>
+
+            <div class="drawer-wrapper">
+
+                <ul>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Commentary</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Sentimental <br/>Icons</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Members of<br/> Groups</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Interests</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Areas of Focus</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div><!-- page container ends here -->
+
+        <div class="benefits-nav">
+            <ul>
+                <li><a href="personal-reflections.html">Personal</br>Reflection</a></li>
+                <li><a href="community-interaction.html">Community</br>Interaction</a></li>
+                <li><a href="group-support.html">Group</br>Support</a></li>
+                <li><a href="soulful-connections.html">Soulful</br>Connections</a></li>
+                <li><a href="playground-rules.html">Playground</br>Rules</a></li>
+            </ul>
+        </div>
+        <footer class="inner-footer">
+            
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html#help">Help</a></li>
+                <li><a href="about.html#terms">Terms</a></li>
+                <li><a href="about.html#privacy">Privacy</a></li>
+                <li><a href="about.html#advertising">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+
+
+<script src="js/jquery.min.js"></script>    
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.pack.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.10.2.custom.js"></script>
+<script type="text/javascript" src="./js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="./js/tool-top.js"></script>
+
+<script> 
+
+    $('#clickMe2').click(function() {
+    $('#form2').slideToggle('slow', function() {
+    // Animation complete.
+    });
+});
+   $('#clickMe1').click(function() {
+    $('#form1').slideToggle('slow', function(){
+    // Animation complete.
+    });
+});
+</script>
+</body>
+</html>

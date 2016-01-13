@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+
+<html >
+
+    <head>
+        <meta charset="utf-8"/>
+        <title>Playground Rules</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        <!--[if lte IE 9]>
+         <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+        <![endif]-->
+        <script src="js/jquery.min.js"></script>        
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulful</h1>    
+            <ul class="sub-nav">
+                <li><a href="#">Sign in</li>
+                <li>|</li>
+                <li><a href="#">Join Now</a></li>
+            </ul>                
+        </header> <!-- header ends here -->
+
+        <div class="mvp-container"><!-- page container starts here -->
+
+            <h1>Playground Rules</h1>
+
+            <ul class="mvp-nav">
+                <li><a href="#">Rock 1</a></li>
+                <li><a href="#">Rock 2</a></li>
+                <li><a href="#">Rock 3</a></li> 
+                <li><a href="#">Rock 4</a></li> 
+                <li><a href="#">Rock 5</a></li>                 
+            </ul>
+
+            <div class="drawer-wrapper">
+
+                <ul>
+
+                    <li>
+                        <div class="mvp-drawers">
+                    
+                            <h3>Rules</h3>
+                            <p> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Cras vestibulum cursus condimentum. Nunc quis tincidunt elit. 
+                                Quisque pharetra metus non elit porta convallis. Morbi ac lacinia dui. Ut in odio in libero tincidunt scelerisque quis eu risus. Duis 
+                                arcu diam, porttitor in gravida at, faucibus in lacus. Aliquam ligula lectus, adipiscing eu tincidunt posuere, interdum id neque. Nam purus ligula, tristique quis varius lacinia, fermentum id ipsum. Aliquam imperdiet tellus sit amet purus ultrices volutpat. Fusce rhoncus aliquam mauris, a pharetra quam tristique ac. Pellentesque viverra, eros a cursus faucibus, neque risus pretium ante, eget luctus diam felis vitae 
+                                lectus. Mauris at nulla non nunc vestibulum rutrum. Aenean a orci nunc, vestibulum rhoncus enim. Integer nec massa in tortor vestibulum 
+                                pretium vel vitae nibh. Nulla neque nulla, varius ut iaculis sed, pellentesque vitae metus
+                             </p>                         
+
+                        </div>
+                    </li>
+
+
+                </ul>
+
+            </div>
+
+        </div><!-- page container ends here -->
+        <footer>
+            
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+
+ 
+</script>
+
+
+
+</body>
+</html>

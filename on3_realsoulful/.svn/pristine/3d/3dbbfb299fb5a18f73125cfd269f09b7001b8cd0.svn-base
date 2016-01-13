@@ -1,0 +1,60 @@
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+table of contents:
+------------------
+	01. Community interaction
+
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	01. Community Interaction
+//------------------------------------------------------------------------*/
+
+.sub-header-cont {
+  margin-left: 54px;
+  margin-top: 90px;
+  width: 100%;
+}
+
+.sub-header-cont img{
+ 	float:left;
+ 	margin-right:25px;
+ }
+
+ .sub-header-cont .slogan-container{
+ 	float:left;
+ }
+
+  #soul-central .mvp-container{
+  clear: both;
+  float: left;
+  margin-left: 4%;
+  margin-top: 15px;
+  min-width: 500px;
+  width: 90%;
+  padding:0;
+}
+
+.mvp-container aside {
+  float: left;
+  height: 765px;
+  margin-top: 0;
+  position: static;
+  width: 78px;
+}
+.mvp-container .comm-stream-nav{
+    border: 1px solid #CCCCCC;
+
+}
+
+.comm-stream-nav li {
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.comm-stream-nav > li button {
+  font-size: 12px;
+  height: 75px;
+  width: 75px;
+}

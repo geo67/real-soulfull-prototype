@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>   
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
+        <link rel="stylesheet" type="text/css" href="css/modals.css"/> 
+
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1><a href="index.html">RealSoulful</a></h1>   
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="profile-page.html">My Sanctuary</a></li>
+                    <li><a href="soul-central.html#">Soul Central</a></li>
+                    <li><a href="resources.html">Resources</a></li>
+                </ul>
+            </nav>
+             <ul class="sub-nav">
+                <li ><a  href="#">Settings</a></li>
+                <li>|</li>
+                <li id="clickMe1"><a href="index.html">Log Out</a></li>
+            </ul>                 
+        </header> <!-- header ends here -->
+
+        <div id="personal-profile" class="container"><!-- page container starts here -->
+
+       
+            <div class="col">
+
+                <div class="personal-cont menuWrapper">
+                    <a rel="htmltooltip" class="photo-add menu1" href="#"><img src="img/photo-placer.png" alt="photo-icon"/></a>
+                    <p>Name</p>
+                    <div class="menu2">
+                        <h4>Select a Profile Photo</h4>                        
+                        <img src="img/photo-placer-lrge.png" alt="photo-icon"/>
+                        <span>
+                            <button>Cencel</button>
+                            <button>Set Profile Photo</button>
+                        </span>
+                    </div>
+                </div>
+
+                <div class="personal-cont menuwrapper2">
+                    <h3>Gratitude</h3>
+                    <p>lorem ipsum</p>
+                    <a rel="htmltooltip" class="photo-add menu3" href="#">Add Gratitude</a>
+                    <div class="menu4">
+                        <img src="#" alt="elements-icon"/>
+                        <select>
+                          <option value="volvo">Gratitude</option>
+                          <option value="saab">Mantra</option>
+                          <option value="opel">Intentions</option>
+                        </select>
+                        <a href="#" class="close"/>Close</a> 
+                        <textarea></textarea>
+                        <div class="share-entry">
+                    </div> 
+                        <div class="divider-line"></div> 
+                        <button>Submit</button>
+                    </div>
+                    <div id="mask"></div>
+                </div>
+
+                <div class="personal-cont">
+                    <h3>Intentions</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Add Intentions</a>
+                </div>
+
+            </div>
+
+            <div class="main-col">
+
+                <div class="slogan-container">
+                    <em class="fancy-text">&#8220;</em>
+                    <h2>Mantra</h2>
+                    <p>Lorem Ipsum dolar sit amet...</p>
+                    <a href="#">Change Mantra</a>
+                    <em class="fancy-text">&#8221;</em>
+                </div>
+
+                <nav class="animation-nav"> <!-- this is where the buttons are to go to the icon stuff -->
+                    <ul>
+                        <li>
+                            <button>Dandelion Blow</button>
+                        </li>                          
+                        <li>
+                            <button>Kindness</button>
+                        </li>
+                        <li>
+                            <button>Prayer</button>
+                        </li>
+                        <li>
+                            <button>Wish</button>
+                        </li>
+                    </ul>
+                </nav> <!-- this is where the buttons are to go to the icon stuff -->
+
+                <div class="options-container">
+                    <div class="journal-container">
+                        <h3>Journal</h3>
+                        <a href="#">Add Entry</a>
+                        <p>Lorem Ipsum dolar...</p>
+                    </div>
+                     <a class="lower-btn" href="#">Read More</a>
+                </div>
+
+                <div class="options-container">
+
+                    <div class="vision-container">
+                        <h3>Vision</h3>
+                        <a class="print-page" href="javascript:window.print()">Print This Section</a>
+                        <div class="vis-img-cont-1">
+
+                            <div>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            </div>
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+
+                        </div>
+
+                        <div class="vis-img-cont-2">
+
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+                            <div>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            </div>
+
+                        </div>
+
+                        <div class="vis-img-cont-1">
+
+                            <div>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                                <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            </div>
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+
+                        </div>                        
+
+                    </div>
+                </div>
+
+            </div>
+
+            <aside>
+
+
+            </aside>
+
+            <div class="tab-wrapper"> <!-- tab wrapper starts -->
+
+                <div class="profile-nav" id="tabs"> <!-- profile pages side nav starts -->
+
+                    <ul>
+                        <li><a href="#tabs-1">Activity Log</a></li>
+                        <li><a href="#tabs-2">Groups</a></li>
+                        <li><a href="#tabs-3">Tribe</a></li>
+                    </ul>
+                    <div id="tabs-1">
+
+                        <h2>Activity Log</h2>
+                        <h5>Notifications</h5>
+                        <select>
+                          <option value="show-all">Show All</option>
+                          <option value="journal">Journal</option>
+                          <option value="gratitude">Gratitude</option>
+                          <option value="intentions">Intentions</option>
+                          <option value="kindness">Kindess</option>
+                          <option value="dandelions">Dandelions</option>
+                          <option value="paryer">Prayer</option>  
+                          <option value="intentions">Intentions</option>
+                          <option value="wishes">Wishes</option>                                           
+                        </select> 
+
+                        <div class="posts-container">                       
+                            <div class="date">Date here</div>
+                            <h3>Journal</h3>
+                            <p>Lorem ipsum dolar...</p>                       
+                        </div>
+
+                        <div class="posts-container">                       
+                            <div class="date">Date here</div>
+                            <h3>Gratitude</h3>
+                            <p>Lorem ipsum dolar...</p>                       
+                        </div>
+
+                        <div class="posts-container">                       
+                            <div class="date">Date here</div>
+                            <h3>Intentions</h3>
+                            <p>Lorem ipsum dolar...</p>                       
+                        </div>
+                    </div>
+                    <div id="tabs-2">
+
+                        <h2>Groups</h2>
+                        <div class="posts-container">                       
+                            <a class="join" href="#"><div class="date"></div>
+                                <h3>Group One</h3>
+                                <p>Lorem ipsum dolar...</p>
+                                <a class="join-with" href="#">Join Group</a>      
+                            </a>  
+             
+                        </div>
+
+                        <div class="posts-container">                       
+                            <div class="date"></div>
+                            <h3>Group Two</h3>
+                            <p>Lorem ipsum dolar...</p>                       
+                        </div>
+
+                        <div class="posts-container">                       
+                            <a class="unjoin" href="#"><div class="date"></div>
+                                <h3>Group Three</h3>
+                                <p>Lorem ipsum dolar...</p> 
+                                <a class="unjoin-with" href="#">Leave</a>
+                            </a>                      
+                        </div>                        
+
+                     </div>
+                    <div id="tabs-3">
+
+                        <h2>Tribe</h2>
+
+                        <div class="posts-container tribes">    
+                            <div class="divider-line"></div>                   
+                        
+                            <h3>Start Your Tribe Now!</h3>
+                            <p>Join the</p> 
+                            <p>RealSoulful Community!</p>
+                            <span>To share please provide us with more info:</span>
+                            <form>
+                                <div class="fancy-radio">
+                                    <input type="radio" name="sex" value="male"><label>Male</label>
+                                    <input type="radio" name="sex" value="female"><label>Female</label>
+                                </div>
+                                <label>What is your birthday?</label><input type="text" placeholder="xx-xx-xxxx" name="birthday">
+
+                                <div class="mult-select-forms">
+
+                                    <label>Where do you live?</label><input type="text" placeholder="city" name="city">
+
+                                    <select>
+                                        <option value="show-all">State</option>
+                                        <option value="journal">Co</option>
+                                    </select>
+                                    <select>
+                                        <option value="show-all">Country</option>
+                                        <option value="journal">United States</option>
+                                    </select>
+
+                                </div>
+                                <div class="terms-link">
+                                    <input type="checkbox" id="c2terms" name="cc"/>
+                                    <label  for="c1tgerms">I agree to <a href="about.html#terms">Terms and Conditions</a></label>       
+                                </div>     
+                                <div class="button">
+                                    <input type="submit" value="Submit" name="submit">
+                                </div>                                      
+                            </form>
+                   
+                        </div> 
+
+                    </div>
+
+                </div> <!-- profile pages side nav ends -->
+            </div> <!-- tab wrapper ends -->
+
+
+
+            <button class="nav-previous">Previous</button>
+            <button class="nav-next">Next</button>
+
+            <footer class="inner-footer">
+                
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="about.html#help">Help</a></li>
+                    <li><a href="about.html#terms">Terms</a></li>
+                    <li><a href="about.html#privacy">Privacy</a></li>
+                    <li><a href="about.html#advertising">Advertising</a></li>    
+                    <li><a href="#">Resources</a></li>                         
+                </ul>
+
+            </footer>
+        </div>
+    </div><!-- page wrapper ends here -->
+<script type="text/javascript" src="./js/jquery-1.2.2.pack.js"></script>
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+
+
+<script>
+
+    $(function() {
+        $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+        $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+});
+
+</script>
+
+<script>
+
+    $('.menu1').mouseover(function(){
+        $('.menu2').show();
+    });
+
+    $('.menuWrapper').mouseleave(function(){
+        $('.menu2').hide();
+});
+
+</script>
+
+<script>
+    $('.menu3').mouseover(function(){
+        $('.menu4').show();
+        $('#mask').show();
+    });
+
+    $('.close').click(function(){
+        $('.menu4').hide();
+        $('#mask').hide();
+});
+
+</script>
+
+<script>
+
+$('.join').mouseover(function(){
+    $('join-with').show();
+});
+
+</script>
+
+<script>
+
+    $('.nav-next').click(function(e) {
+        e.preventDefault();
+        $('.tab-wrapper').animate({
+            'margin-left' : '100px'    
+        });                 
+    });
+    $('.nav-previous').click(function(e) {
+        e.preventDefault();
+        $('.tab-wrapper').animate({
+            'margin-left' : '-100px'
+        });                 
+    });
+
+</script>
+</body>
+</html>

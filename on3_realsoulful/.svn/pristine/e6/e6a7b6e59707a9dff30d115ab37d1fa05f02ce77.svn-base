@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>RealSoulful</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>    
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulful</h1>    
+        </header> <!-- header ends here -->
+
+        <div class="container"><!-- page container starts here -->
+            <div class="welcome">
+                <h1>Welcome!</h1>
+                <p>Lorem ipsum dolar sit amet...</p>    
+            </div> 
+
+            <div class="blueberry">
+                <ul class="slides">
+                    <li>    
+                        <div class="benefits-info">                    
+                            <h3>Personal Reflection</h3>
+                            <p>Ipsum dola</p>
+                            <a href="personal-reflections.html">Learn More</a>  
+                        </div>
+                        <img src="img/slide-placer01.png" alt="bg-image 01"/>
+                    </li>
+                    <li>
+                        <div class="benefits-info">  
+                            <h3>Community Interaction</h3>
+                            <p>Ipsum dola</p>
+                            <a href="community-interaction.html">Learn More</a>                               
+                         </div>
+                        <img src="img/slide-placer02.png" alt="bg-image 02"/>
+                    </li>
+                    <li>
+                        <div class="benefits-info">  
+                            <h3>Group Support</h3>
+                            <p>Ipsum dola</p>
+                            <a href="group-support.html">Learn More</a>  
+                        </div>
+                        <img src="img/slide-placer03.png" alt="bg-image 031"/>
+                    </li>
+                    <li>
+                        <div class="benefits-info">  
+                            <h3>Soulful Connections</h3>
+                            <p>Ipsum dola</p>
+                            <a href="soulful-connections.html">Learn More</a>  
+                        </div>     
+                        <img src="img/slide-placer04.png" alt="bg-image 04"/>
+                    </li>
+                    <li>
+                        <div class="benefits-info">  
+                            <h3>Playground Rules</h3>
+                            <p>Ipsum dola</p>
+                            <a href="playground-rules.html">Learn More</a>    
+                        </div> 
+                        <img src="img/slide-placer05.png" alt="bg-image 05"/>
+                    </li>
+
+                </ul>
+            <!-- Optional, see options below -->
+                <ul class="pager">
+                    <li><a href="#"><span></span>Personal</br>Sanctuary</a></li>
+                    <li><a href="#"><span></span>Community</br>Central</a></li>
+                    <li><a href="#"><span></span>Group</br>Support</a></li>
+                    <li><a href="#"><span></span>Soulful</br>Connections</a></li>
+                    <li><a href="#"><span></span>Playground</br>Rules</a></li>
+                </ul>
+            <!-- Optional, see options below -->
+            </div>
+
+            <aside>
+                <fieldset>
+
+                    <form method="post" name="log-in-form" class="form-cont"> <!-- form   sign in starts here -->
+
+                        <input class="input" type="text" placeholder="Email" name="email"/>
+                        <input class="input short-info-box" type="text" placeholder="Password" name="password"/>
+                        <div class="button">
+                            <input type="submit" value="Sign in" name="submit">
+                        </div>
+                        <div class="cbox-wrapper">
+                            <input type="checkbox" value="Remember" name="check"/>
+                            <label class="checkbox-label">Remember Me? </label>
+                            <a href="forgot-password.html">Forgot Password</a>
+                        </div>
+
+                    </form> <!-- form sign in ends here -->
+                    <form method="post" name="register-form" class="form-cont"> <!-- form sign up starts here -->
+
+                        <p>New to RealSoulful? Join Now!</p>
+                        <input class="input" type="text" placeholder="Name" name="name"/>
+                        <input class="input" type="text" placeholder="Email" name="email"/>
+                        <input class="input" type="text" placeholder="Password" name="Password"/>                    
+                        <input class="input" type="text" placeholder="Confirm Password" name="Confirm Password"/>     
+
+                        <div>
+                            <input type="checkbox" id="c1join" name="cc"/>
+                            <label class="checkbox-label" for="c1join">Join the Community</label>       
+                        </div>         
+                        <div>
+                            <input type="checkbox" id="c2terms" name="cc"/>
+                            <label  for="c1tgerms">I agree to <a href="about.html#terms">Terms and Conditions</a></label>       
+                        </div>     
+                        <div class="button">
+                            <input type="submit" value="Submit" name="submit">
+                        </div>  
+
+                    </form> <!-- form sign up ends here -->
+
+                </fieldset>
+
+            </aside>
+
+        </div>
+        <footer>
+            
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html#help">Help</a></li>
+                <li><a href="about.html#terms">Terms</a></li>
+                <li><a href="about.html#privacy">Privacy</a></li>
+                <li><a href="about.html#advertising">Advertising</a></li>                            
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+<script>
+
+$(window).load(function() {
+    $('.blueberry').blueberry();
+});
+
+</script>
+
+</body>
+</html>

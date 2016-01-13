@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Personal Reflections</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        <!--[if lte IE 9]>
+         <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+        <![endif]-->
+        <script src="js/jquery.min.js"></script>        
+    </head>
+
+</head>
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulful</h1>    
+            <ul class="sub-nav">
+                <li><a href="#">Sign in</li>
+                <li>|</li>
+                <li><a href="#">Join Now</a></li>
+            </ul>                
+        </header> <!-- header ends here -->
+
+        <div class="mvp-container"><!-- page container starts here -->
+
+            <h1>Personal Reflections</h1>
+
+            <ul class="mvp-nav">
+                <li><a href="#drawer1">Rock 1</a></li>
+                <li><a href="#drawer2">Rock 2</a></li>
+                <li><a href="#drawer3">Rock 3</a></li> 
+                <li><a href="#drawer4">Rock 4</a></li> 
+                <li><a href="#drawer5">Rock 5</a></li>                 
+            </ul>
+
+            <div class="drawer-wrapper">
+
+                <ul>
+
+                    <li>
+                        <div id="drawer1" class="mvp-drawers">
+                    
+                            <h3>Journal</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="drawer2" class="mvp-drawers">
+                    
+                            <h3>Gratitude</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="drawer3" class="mvp-drawers">
+                    
+                            <h3>Intentions</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="drawer4" class="mvp-drawers">
+                    
+                            <h3>Gratitude</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                    <li>
+                        <div id="drawer5" class="mvp-drawers">
+                    
+                            <h3>Gratitude</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+
+                </ul>
+
+            </div>
+
+        </div><!-- page container ends here -->
+        <footer>
+            
+            <ul>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Help</a></li>
+                <li><a href="#">Terms</a></li>
+                <li><a href="#">Privacy</a></li>
+                <li><a href="#">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+
+ 
+</script>
+
+
+
+</body>
+</html>

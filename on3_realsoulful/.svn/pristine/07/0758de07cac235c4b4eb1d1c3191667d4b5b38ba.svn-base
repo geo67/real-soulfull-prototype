@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>    
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulful</h1>    
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#">Community</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+             <ul class="sub-nav">
+                <li ><a  href="#">Settings</li>
+                <li>|</li>
+                <li id="clickMe1"><a href="#">Log Out</a></li>
+            </ul>                 
+        </header> <!-- header ends here -->
+
+        <div class="container"><!-- page container starts here -->
+
+            <div class="col">
+
+                <div class="personal-cont">
+                    <img/>
+                    <p>Name</p>
+                </div>
+                <div class="personal-cont">
+                    <h3>Gratitude</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Edit Gratitude</a>
+                </div>
+                <div class="personal-cont">
+                    <h3>Intentions</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Edit Intentions</a>
+                </div>
+
+            </div>
+
+            <div class="main-col">
+            </div>
+
+            <aside>
+               
+               <div>
+
+               </div>
+
+            </aside>
+
+
+
+            <footer>
+                
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Advertising</a></li>    
+                    <li><a href="#">Resources</a></li>                         
+                </ul>
+
+            </footer>
+        </div>
+    <div><!-- page wrapper ends here -->
+
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+<script>
+
+
+</script>
+
+</body>
+</html>

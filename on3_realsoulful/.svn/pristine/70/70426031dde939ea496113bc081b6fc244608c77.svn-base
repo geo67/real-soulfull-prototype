@@ -1,0 +1,1048 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+theme name: RealSoulful
+description: Social media site
+version: 1.0
+author: George Robinson
+author URI: http://www.on3solutions.com/
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+table of contents:
+------------------
+	01. E Meyers Reset
+	02. html5 display definitions
+	03. base (typopgraphy, lists, embedded content, figures, forms, tables)
+	04. links
+	---------------------
+	05. theme definitions
+	---------------------
+		05a. main page
+		05b. content 
+			01. slide Show
+			02. Aside
+			03. Form
+			04. Main Navigation
+			05. MVP Sections
+			06. Sub Nav (header)
+			07. About Us page
+			08. Columns
+			09. Personal Container
+			10. Tab Navigation
+			11. Animation Nav
+			12. Benefits nav
+			13. Playground rules
+			14. Activity log
+		05c. sidebar
+		05d. footer
+
+	---------------------
+
+	06. non-semantic helper classes
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	01. E Meyers Reset
+//------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------------------------------------------------------------------//
+	02. HTML 5 display definitions
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	03. base (typopgraphy, lists, embedded content, figures, forms, tables)
+//------------------------------------------------------------------------*/
+
+body {
+    background-color: #F3F3F5;
+    height: 768px;
+    font-family: arial, helvetica;
+}
+
+h1 {font-size:30px;}
+
+p{
+	font-size:12px;
+	color:#999;
+	line-height:20px;
+}
+/*------------------------------------------------------------------------//
+	04. links
+//------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	05. theme definitions
+//------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	05a.  Main Page
+//------------------------------------------------------------------------*/
+.page-wrapper {
+	padding:0 0 25px 0;
+}
+
+.page-wrapper header{
+	background-color:#0e76bc;
+	color: #fff;
+	font-size:28px;
+	height: 30px;
+	padding:27px 0 18px 53px;
+	position:fixed;
+	z-index:900;
+	width:100%;
+	top:0;
+}
+
+.page-wrapper a{
+	text-decoration:none;
+	color:#fff;
+}
+header h1{
+	display:inline-block;
+	float:left;
+}
+
+.page-wrapper .container {
+	padding:54px 85px 50px 54px;
+	margin-top:70px;
+
+}
+.container .welcome {
+	position: relative;
+    z-index: 5;
+}
+.container h1{
+    color: #999;
+    display: inline-block;
+    font-size: 30px;
+
+}
+.container p {
+	color:#999;
+}
+#nav1 {
+	position:relative;
+	left:0;
+	top:0;
+}
+
+#nav2, #nav3, #nav4, #nav5 {
+    left: 54px;
+    position: absolute;
+    top: 191px;
+}
+
+
+/*------------------------------------------------------------------------//
+	05b. .01 Slide Show See Blueberry CS
+//------------------------------------------------------------------------*/
+
+.page-wrapper .nav{
+	float:left;
+}
+
+.page-wrapper .nav ul{
+	width:35%;
+}
+
+.page-wrapper .nav li{
+	float:left;
+}
+/*------------------------------------------------------------------------//
+	05b. .02 Aside
+//------------------------------------------------------------------------*/
+
+aside {
+    margin: 15px 0 0;
+    position: absolute;
+    right: 50px;
+    top: 127px;
+    width: 262px;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .04 Main Navigation
+//------------------------------------------------------------------------*/
+
+.main-nav{
+    float: left;
+    margin-left: 15%;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.main-nav ul{
+	color:#fff;
+	text-transform:uppercase;
+	text-align:left;
+}
+
+.main-nav li {
+	float:left;
+	font-size:14px;
+	margin-right:40px;
+}
+
+.main-nav a{
+	text-decoration:none;
+	color:#fff;
+}
+
+.main-nav a:hover{
+	color:#ccc;
+}
+/*------------------------------------------------------------------------//
+	05b. .05 MVP Sections
+//------------------------------------------------------------------------*/
+
+.mvp-container{
+    border: 1px dashed #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    height: 600px;
+    margin: 100px auto 0;
+    overflow: hidden;
+    padding: 22px 18px 0;
+    width: 72%;
+}
+
+.mvp-container h1{
+	font-size: 22px;
+	margin:0 0 16px 0;
+	color:#0E76BD;
+}
+
+.mvp-drawers {
+    border: 1px dashed #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    height: 100px;
+    margin: 0 0 15px;
+    padding: 10px 25px 25px;
+    width: 670px;
+}
+
+
+.mvp-drawers p {
+    border: 1px dashed #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    float: right;
+    height: 90px;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-top: 10px;
+    width: 504px;
+    padding-bottom:10px;
+}
+
+.mvp-drawers h3 {
+	font-size:18px;
+	color:#0E76BD;
+	margin:40px 0 0 25px;
+	display:inline-block;
+}
+
+.mvp-nav {
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    height: 75px;
+    margin: 0 0 15px;
+    padding-top: 60px;
+}
+
+.mvp-nav li{
+	float:left;
+	margin:0 0 0 72px;
+}
+
+.mvp-nav a {
+	text-decoration:none;
+	color:#666;
+}
+
+.mvp-nav a:hover {
+	color:#0E76BD;
+}
+
+.drawer-wrapper {
+	width:740px;
+}
+
+
+/*------------------------------------------------------------------------//
+	05b. .06 Sub Nav (header)
+//------------------------------------------------------------------------*/
+
+.sub-nav{
+	float:right;
+	font-size:12px;
+	margin-right:90px;
+}
+
+.sub-nav li{
+	color:#fff;
+	float:left;
+	margin:8px 5px 0 0;
+}
+
+.sub-nav a{
+	color:#fff;
+	text-decoration:none;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .07 About us page
+//------------------------------------------------------------------------*/
+
+.footer-container {
+	height:768px;
+}
+
+.container .return {
+	color: #999999;
+    display: block;
+	font-size: 14px;
+	margin-left: 43px;
+}
+
+.container .footer-nav {
+	float:left;
+	width: 30%;
+	margin: 15px 0 0;
+	margin-right:30px;
+}
+
+.container .footer-nav ul {
+	padding:10px;
+}
+
+.container .footer-nav li{
+	margin-bottom:10px;
+	border-bottom:1px dashed #ccc;
+	padding-bottom:10px;
+}
+
+.container .footer-nav a{
+	text-decoration:none;
+	color:#0E76BC;
+}
+
+.container .footer-info-wrapper {
+	float:left;
+	width:65%;
+
+}
+
+.container .footer-info-wrapper ul{
+	overflow-y:scroll;
+	height:600px;
+}
+
+.container .footer-info-wrapper h2{
+	font-size:34px;
+	color:#0E76BC;
+	margin-bottom:12px;
+}
+.container .footer-info-wrapper p{
+	color:#000;
+	margin-bottom:12px;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .08 Columns
+//------------------------------------------------------------------------*/
+
+.container .col {
+    border: 1px solid #CCCCCC;
+    float: left;
+    padding: 10px;
+    width: 25%;
+    background-color:#fff;
+}
+
+.container .main-col{
+	width:70%;
+	float:left;
+	border:1px solid #ccc;
+	margin-left:12px;
+	padding:26px 0 0 16px;
+}
+
+
+/*------------------------------------------------------------------------//
+	05b. .09 Personal container
+//------------------------------------------------------------------------*/
+
+#personal-profile {
+	padding:8px 85px 50px 54px;
+}
+.personal-cont{
+    border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    margin-bottom: 8px;
+    padding: 10px;
+    width: 90%;
+    height:80px;
+    background-color:#fff;
+}
+
+.personal-cont img{
+	height:80px;
+	width:80px;
+	float:left;
+	margin-right:8px;
+}
+.personal-cont img:hover{
+	opacity:0.7;
+}
+.personal-cont h3{
+    color: #0E76BC;
+    display: block;
+    font-size: 35px;
+    margin-bottom: 3px;
+}
+
+.personal-cont p {
+    color: #999999;
+    float: left;
+    font-size: 12px;
+}
+
+
+.personal-cont a {
+  color: #0E76BC;
+  float: right;
+  font-size: 11px;
+  margin-top: 34px;
+  text-decoration: none;
+} 
+
+.personal-cont .photo-add {
+  float: none;
+}
+
+
+.slogan-container {
+	width:35%;
+}
+.slogan-container h2{
+	font-size:26px;
+	color:#0E76BC;
+	float:left;
+}
+
+.slogan-container p{
+    clear: both;
+    color: #999999;
+    float: left;
+    font-size: 14px;
+    margin-left: 28px;
+    margin-top: -12px;
+}
+
+.slogan-container a{
+    clear: both;
+    color: #0E76BC;
+    float: left;
+    font-size: 12px;
+    margin-left: 125px;
+    margin-right: 8px;
+    text-decoration:none;
+}
+.slogan-container .fancy-text{
+    float: left;
+    font-size: 46px;
+    margin-right: 10px;
+    margin-top: -10px;
+}
+
+.options-container {
+	clear:both;
+}
+
+.options-container h3 {
+    color: #0E76BC;
+  font-size: 26px;
+}
+
+.options-container a {
+	clear: both;
+	float: right;
+	font-size: 12px;
+	margin: -24px 13px;
+	text-decoration: none;
+	color: #0E76BC;
+
+}
+ 
+ .options-container p {
+  clear: both;
+  display: block;
+  margin-left: 8px;
+  margin-top: 8px;
+}
+
+.options-container .lower-btn {
+  float: right;
+  margin-right: 34px;
+  margin-top: -37px;
+}
+
+.journal-container, 
+.vision-container {
+	background-color:#fff;
+	border-radius:5px;
+	border:1px solid #CCCCCC;
+	margin-bottom:8px;
+	padding-left:15px;
+	padding-top:12px;
+	padding-bottom:15px;
+	width:95%;
+}
+
+.journal-container {
+	height:200px;
+}
+
+.vision-container{
+	height:auto;
+}
+
+.vis-img-cont {
+  margin-bottom: 8px;
+  margin-top: 15px;
+  padding: 5px;
+  width: 100%;
+}
+
+.vis-img-cont-1, 
+.vis-img-cont-2 {
+  margin-top: 5px;
+  padding-left: 60px;
+}
+
+.vis-img-cont-1 div {
+  float: left;
+  margin-right: 148px;
+  width: 125px;
+}
+
+.vis-img-cont-2 div {
+  float: right;
+  margin-right: 158px;
+  width: 125px;
+}
+
+.vision-container .print-page {
+  margin-bottom: 8px;
+  margin-left: 8px;
+}
+/*------------------------------------------------------------------------//
+	05b. .10 Tab Navigation
+//------------------------------------------------------------------------*/
+
+.ui-tabs-vertical {     
+
+	right: -500px;
+	top: 0;
+	width: 70%;
+	z-index:52;
+}
+
+.ui-tabs-vertical .ui-tabs-nav { 
+    clear: both;
+    float: left;
+    left: 0;
+    margin-right: 1px;
+    position: relative;
+    width: 10%;
+    z-index: 50;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li { 
+    background-color: #FFFFFF;
+    border-bottom: 1px solid #CCCCCC;
+    border-left: 1px solid #CCCCCC;
+    border-radius: 5px 0 0 5px;
+    border-right-width: 0 !important;
+    border-top: 1px solid #CCCCCC;
+    clear: left;
+    margin: 8px -1px 0 8px;
+    padding: 15px 0 15px 10px;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li a { 
+	display:block; 
+	text-decoration:none;
+	font-size:14px;
+	color:#0E76BC;
+}
+
+.ui-tabs-vertical .ui-tabs-nav li.ui-tabs-active { 
+    border-right-width: 1px;
+    margin-bottom: 8px;
+    padding-bottom: 15px;
+    padding-top:15px;
+    padding-right: 0.1em;
+    width: 78%;
+    box-shadow: -8px 0 12px #CCCCCC;
+ 	-moz-box-shadow: -8 0px 12px #ccc;
+	-webkit-box-shadow: -8px 0px 12px #ccc;   
+}
+
+.ui-tabs-vertical .ui-tabs-panel { 
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    float: left;
+    height: 360px;
+    overflow: hidden;
+    padding: 1em;
+    width: 60%;
+}
+
+.ui-tabs-vertical .ui-tabs-panel h2 {
+	color:#0E76BC;
+	font-size:20px;
+	margin-bottom:8px;
+}
+.ui-tabs-vertical .ui-tabs-panel p{
+	font-size:12px;
+	color:#999;
+}
+
+.slide {
+  position: relative;
+  top:500px;
+  width:80%;
+}
+
+.slide .inner {
+  position: absolute;
+  left: 0;
+}
+
+.tab-wrapper {
+  position: relative;
+  width:1000px;
+  /*right: -1080px;
+  top: -1200px; */
+}
+
+.ui-tabs-vertical .ui-tabs-panel > h2 {
+  float: left;
+  font-size: 22px;
+  margin-right: 20px;
+}
+
+.ui-tabs-vertical .ui-tabs-panel > h5 {
+	color:#0E76BC;
+	float: left;
+	font-size: 15px;
+	text-transform: uppercase;
+	padding-top:7px;
+}
+.ui-tabs-vertical .ui-tabs-panel > select {
+	border: 1px solid #CCCCCC;
+	border-radius: 5px 5px 5px 5px;
+	float: right;
+	padding: 3px;
+}
+
+.hold {
+   margin: 10px;
+   position: relative;
+   background: #eee;       
+   height: 30px;
+}
+#innerscroll {
+   position: absolute;
+   background: #faa;
+   left: 50%;
+   height: 30px;
+   width: 30px;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .11 Animation Nav
+//------------------------------------------------------------------------*/
+
+.animation-nav {
+	float:right;
+	margin-top:-40px;
+	margin-right:24px;
+}
+
+
+.animation-nav li{
+    float: left;
+    margin-left: 8px;
+}
+
+.animation-nav button{
+	border: 1px solid #CCCCCC;
+    border-radius: 5px 5px 5px 5px;
+    padding: 10px;
+    text-align: center;
+    width: 58px;
+    height: 58px;
+    font-size: 11px;
+}
+
+.animation-nav button:hover{
+	background-color:#ccc;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .12 benefits Nav
+//------------------------------------------------------------------------*/
+
+.benefits-nav {
+    margin-left: 22%;
+    margin-top: 15px;
+    width: 50%;
+}
+
+.benefits-nav li{
+    color: #000;
+    display: inline;
+    float: left;
+    font-size: 11px;
+    margin-right: 15px;
+    padding: 15px;
+    text-align:center;
+}
+.benefits-nav a{
+	color:#000;
+	text-decoration:none;
+}
+.benefits-nav a:hover{
+	color:#0E76BC;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .13 Playground Rules
+//------------------------------------------------------------------------*/
+
+.playground-wrapper{
+	width:90%;
+	min-width:500px;
+	background-color:#fff;
+	height:500px;
+}
+
+.playground-wrapper h3{
+
+}
+
+.mvp-container.playground-wrapper li {
+  float: left;
+  min-width: 485px;
+  width: 100%;
+  margin-bottom:12px;
+}
+
+.playground-wrapper em{
+	font-size:40px;
+	margin-right:5px;
+	float:left;
+}
+.playground-wrapper p{
+	float:left;
+	padding-top:20px;
+}
+.playground-wrapper .close-rules {
+  clear: both;
+  color: #0E76BD;
+  float: right;
+  margin-top: -50px;
+}
+
+.playground-wrapper .button-wrapper {
+	float:left;
+	width:100%;
+}
+.playground-wrapper .button-wrapper .do-not-agree-btn{
+	float:left;
+}
+.playground-wrapper .button-wrapper .agree-btn{
+	float:right;
+}
+.playground-wrapper .button-wrapper input{
+	background-color: #0E76BD;
+	color:#fff;
+	border-radius:5px;
+}
+.playground-wrapper .button-wrapper input:hover{
+	background-color: #ccc;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .14 Activity Log
+//------------------------------------------------------------------------*/
+
+.posts-container {
+  border-bottom: 1px solid #CCCCCC;
+  clear: both;
+  display: block;
+  height: 70px;
+  padding-bottom: 8px;
+  width: 100%;
+}
+
+.posts-container .date {
+  border: 1px solid #CCCCCC;
+  border-radius: 5px 5px 5px 5px;
+  float: left;
+  height: 49px;
+  margin-right: 15px;
+  padding: 10px;
+  text-align: center;
+  width: 49px;
+}
+
+.posts-container h3 {
+  color: #0E76BD;
+  margin-top: 16px;
+  padding-top: 14px;
+}
+
+.posts-container .join-with {
+	display:none;
+  color: #0E76BD;
+  float: right;
+  font-size: 12px;
+}
+
+.tribes {
+  border-bottom: medium none;
+}
+
+.tribes h3 {
+    color: #000000;
+    font-size: 22px;
+    margin-bottom: 10px;
+    padding-top: 0;
+    text-align: center;
+}
+
+.tribes p {
+  font-size: 16px;
+  text-align: center;
+}
+
+
+.tribes span {
+  border-bottom: 1px solid #CCCCCC;
+  border-top: 1px solid #CCCCCC;
+  display: block;
+  margin-top: 20px;
+  padding-top: 10px;
+  text-align: center;
+  padding-bottom: 10px;
+  color: #ccc;
+}
+
+.tribes form {
+  margin: auto;
+  width: 225px;
+}
+
+.fancy-radio {
+	padding: 8px;
+	font-size:14px;
+	margin-left:-12px;
+}
+
+.fancy-radio input {
+  float: left;
+}
+
+.tribes .fancy-radio label {
+	font-size: 14px;
+	margin-right: 13px;
+	color: #0E76BD;
+	float:left;
+}
+
+.tribes label {
+  color: #CCCCCC;
+  display: block;
+  float: left;
+  font-size: 12px;
+  margin-top: 8px;
+}
+.mult-select-forms {
+	display:block;
+}
+
+.mult-select-forms label {
+  display: block;
+  width: 200px;
+}
+
+.mult-select-forms > input {
+  width: 88px;
+}
+
+.mult-select-forms select {
+  color: #CCCCCC;
+  font-size: 11px;
+  padding: 3px;
+  width: 61px;
+}
+
+.terms-link {
+  display: block;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+
+.terms-link input {
+  float: left;
+  margin-right: 5px;
+}
+
+.terms-link label {
+  margin-left: 5px;
+  margin-top: 4px;
+}
+
+.terms-link a {
+  color: #0E76BD;
+}
+
+.tribes .button input {
+  background-color: #0E76BD;
+  border-radius:5px;
+  color: #FFFFFF;
+  margin-left: 21%;
+  margin-top: 8px;
+  padding: 3px;
+  text-align: center;
+  width: 75px;
+}
+/*------------------------------------------------------------------------//
+	05b. non-semantic helper classes
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	05c. non-semantic helper classes
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	05d. Footer
+//------------------------------------------------------------------------*/
+.page-wrapper footer {
+    clear: both;
+    display: block;
+    left: 25%;
+    margin: 0 auto;
+    position: absolute;
+    top: 88%;
+    width: 50%;
+    margin-top:10px;
+}
+
+.page-wrapper footer > ul {
+	list-style:none;
+	width:500px;
+	margin: 0 auto;
+}
+
+.page-wrapper footer > ul> li{
+	float:left;
+	color:#000;
+	font-size:10px;
+	text-transform:uppercase;
+	margin:0 15px 0 0;
+}
+
+.page-wrapper footer > ul > li > a{
+	color:#000;
+	text-decoration:none;
+}
+
+.page-wrapper footer > ul > li > a:hover{
+	color:#ccc;
+	text-decoration:none;
+}
+
+.page-wrapper .inner-footer {
+    display: block;
+    margin: 10px auto 0;
+    padding: 10px 0 0;
+    position: static;
+}
+
+.dynamic_link{
+    background-color: #FFFFFF;
+    border: 1px solid #CCCCCC;
+    border-radius: 8px 8px 8px 8px;
+    left: 24%;
+    max-width: 200px;
+    min-width:199px;
+    padding: 12px;
+    position: relative;
+    bottom: 60%;
+    width: 20%;
+    z-index: 750;
+}
+
+.dynamic_link a{
+	color: #0E76BC;
+}

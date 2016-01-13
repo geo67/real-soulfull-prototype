@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+
+<html >
+<head>
+
+	<!-- Basic Page Needs
+	================================================== -->
+    <head>
+        <meta charset="utf-8"/>
+        <title>Personal Reflections</title>
+        <link rel="stylesheet" type="text/css" href="css/global.css"/>
+        <!--[if lte IE 9]>
+         <link rel="stylesheet" type="text/css" href="css/assignment_04_george_robinson_ie.css"/>
+        <![endif]-->
+        <script src="js/jquery.min.js"></script>        
+    </head>
+
+</head>
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1><a href="index.html">RealSoulful</a></h1>      
+            <ul class="sub-nav">
+                <li><a href="#">Sign in</li>
+                <li>|</li>
+                <li><a href="#">Join Now</a></li>
+            </ul>                
+        </header> <!-- header ends here -->
+
+        <div class="mvp-container"><!-- page container starts here -->
+
+            <h1>Personal Reflections</h1>
+
+            <ul class="mvp-nav">
+                <li><a href="#drawer1">Rock 1</a></li>
+                <li><a href="#drawer2">Rock 2</a></li>
+                <li><a href="#drawer3">Rock 3</a></li> 
+                <li><a href="#drawer4">Rock 4</a></li> 
+                <li><a href="#drawer5">Rock 5</a></li>                 
+            </ul>
+
+            <div class="drawer-wrapper">
+
+                <ul>
+
+                    <li>
+                        <div id="drawer1" class="mvp-drawers">
+                    
+                            <h3>Journal</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer2" class="mvp-drawers">
+                    
+                            <h3>Gratitude</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer3" class="mvp-drawers">
+                    
+                            <h3>Intentions</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer4" class="mvp-drawers">
+                    
+                            <h3>Gratitude</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer5" class="mvp-drawers">
+                    
+                            <h3>Release</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer6" class="mvp-drawers">
+                    
+                            <h3>Wishes</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer6" class="mvp-drawers">
+                    
+                            <h3>Prayers</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>
+                    <li>
+                        <div id="drawer7" class="mvp-drawers">
+                    
+                            <h3>Envision</h3>
+                            <p>Ipsum dola</p>                         
+
+                        </div>
+                    </li>                    
+                </ul>
+
+            </div>
+
+        </div><!-- page container ends here -->
+
+        <div class="benefits-nav">
+            <ul>
+                <li><a href="personal-reflections.html">Personal</br>Reflection</a></li>
+                <li><a href="community-interaction.html">Community</br>Interaction</a></li>
+                <li><a href="group-support.html">Group</br>Support</a></li>
+                <li><a href="soulful-connections.html">Soulful</br>Connections</a></li>
+                <li><a href="playground-rules.html">Playground</br>Rules</a></li>
+            </ul>
+        </div>
+            <!-- Optional, see options below -->
+        <footer class="inner-footer">
+            
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html#help">Help</a></li>
+                <li><a href="about.html#terms">Terms</a></li>
+                <li><a href="about.html#privacy">Privacy</a></li>
+                <li><a href="about.html#advertising">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+
+    <div><!-- page wrapper ends here -->
+
+</body>
+</html>

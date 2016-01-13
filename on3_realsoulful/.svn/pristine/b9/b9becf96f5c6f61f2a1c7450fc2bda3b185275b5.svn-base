@@ -1,0 +1,327 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+theme name: RealSoulful
+description: Social media site
+version: 1.0
+author: George Robinson
+author URI: http://www.on3solutions.com/
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------------------------------------------------------------------------------//
+
+table of contents:
+------------------
+	01. E Meyers Reset
+	02. html5 display definitions
+	03. base (typopgraphy, lists, embedded content, figures, forms, tables)
+	04. links
+	---------------------
+	05. theme definitions
+	---------------------
+		05a. main page
+		05b. content 
+			01. Carousel
+			02. Aside
+			03. Form
+			04. Form Elements (button, input, checkboxes, etc)
+		05c. sidebar
+		05d. footer
+
+	---------------------
+
+	06. non-semantic helper classes
+
+//------------------------------------------------------------------------------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	01. E Meyers Reset
+//------------------------------------------------------------------------*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+
+/*------------------------------------------------------------------------//
+	02. HTML 5 display definitions
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	03. base (typopgraphy, lists, embedded content, figures, forms, tables)
+//------------------------------------------------------------------------*/
+
+body {
+    background-color: #F3F3F5;
+    height: 768px;
+    width: 1024px;
+}
+/*------------------------------------------------------------------------//
+	04. links
+//------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	05. theme definitions
+//------------------------------------------------------------------------*/
+
+
+/*------------------------------------------------------------------------//
+	05a.  Main Page
+//------------------------------------------------------------------------*/
+.page-wrapper {
+
+}
+.page-wrapper header{
+	background-color:#0e76bc;
+	color: #fff;
+	font-size:28px;
+	height: 30px;
+	padding:27px 0 18px 53px;
+}
+
+.page-wrapper .container {
+	padding:54px 85px 50px 54px;
+	width:1024px;
+}
+
+.container h1{
+	font-size:30px;
+}
+/*------------------------------------------------------------------------//
+	05b. .01 Carousel
+//------------------------------------------------------------------------*/
+
+#welcome-carousel-wrapper{
+	width:610px;
+	height: 422px;
+	overflow: hidden;
+}
+.slide {
+	border-radius: 5px;
+	border: 1px dashed #999;
+	padding: 20px 28px 22px 18px; 
+}
+
+.slide h1{
+	font-size:24px;
+	float:left;
+	margin:0 0 14px 0;
+}
+.slide p{
+	float:left;
+	font-size:12px;
+	color:#7b7b7b;
+	clear:both;
+}
+.info-link {
+	float:right;
+	top:34px;
+	left:-22px;
+	position:relative;
+	text-decoration:none;
+}
+
+.car-navigation {
+    bottom: 64px;
+    left: 149px;
+    position: relative;
+}
+
+.car-navigation li {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #999999;
+    border-radius:5px;
+    float: left;
+    height: 41px;
+    margin-right: 6px;
+    text-align: center;
+    width: 51px;
+    padding-top:10px;
+}
+#welcome-carousel {
+	width:600px;
+	float:left;
+	margin-right:62px;
+}
+#welcome-carousel-wrapper > ul{
+	margin:0;
+	padding:0;
+	list-style:none;
+	width:100000px;
+}
+
+#welcome-carousel-wrapper > ul > li{
+	width:562px;
+	height:362px;
+	float:left;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .02 Aside
+//------------------------------------------------------------------------*/
+
+aside {
+	float:left;
+	width: 262px;
+	margin: 15px 0 0 0;
+}
+
+
+/*------------------------------------------------------------------------//
+	05b. .03 Form Container
+//------------------------------------------------------------------------*/
+
+
+.form-cont{
+	background-color: #fff;
+	border:1px solid #bababa;
+	border-radius:5px;
+	padding:15px;
+	float:left;
+	width: 231px;
+	margin:0 0 10px 0;
+}
+
+/*------------------------------------------------------------------------//
+	05b. .04 Form Elements (button, input, checkboxes, etc)
+//------------------------------------------------------------------------*/
+
+.form-cont p {
+	color: #0e76bd;
+	font-size: 13px;
+	font-weight: 600;
+	font-family: arial;
+	border-bottom:1px solid #C4C5C9;
+	padding:0 0 12px 0;
+	margin: 0 0 18px 0;
+}
+
+.form-cont input, .form-cont label {
+	color:#c4c5c9;
+}
+.form-cont .cbox-wrapper {
+	float:left;
+}
+.form-cont .checkbox-label{
+	font-size: 10px;
+}
+
+.form-cont a {
+	text-decoration:none;
+	color:#a6d0e9;
+	font-size: 10px
+
+}
+.form-cont .button {
+	float:right;
+	margin:6px 0 0 0;
+}
+
+.form-cont .button input{
+	color:#fff;
+	background-color: #0c77bd;
+	border: 1px solid #2f87c6;
+}
+
+.input{
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #C4C5C9;
+    border-radius: 3px 3px 3px 3px;
+    box-shadow: 0 0 3px #C4C5C9 inset;
+    clear: both;
+    color: #C4C5C9;
+    float: left;
+    height: 20px;
+    margin: 5px 0 5px 3px;
+    padding: 0 0 0 3px;
+    width: 224px;
+}
+
+.short-info-box {
+	width: 150px;
+}
+
+/* Hack to remove Safari's extra padding. Remove if you don't care about pixel-perfection. */
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+    .input input, .input textarea, .input select { padding: 4px; }
+}
+
+/*------------------------------------------------------------------------//
+	05b. non-semantic helper classes
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	05c. non-semantic helper classes
+//------------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------------//
+	05d. Footer
+//------------------------------------------------------------------------*/
+.page-wrapper footer {
+	clear:both;
+	display:block;
+}
+
+.page-wrapper footer > ul {
+	list-style:none;
+}
+.page-wrapper footer > ul> li{
+	float:left;
+	color:#ccc;
+	font-size:10px;
+	text-transform:uppercase;
+	margin:0 15px 0 0;
+}
+
+.page-wrapper footer > ul > li > a{
+	color:#ccc;
+	text-decoration:none;
+}

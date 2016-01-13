@@ -1,0 +1,208 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>   
+    <link rel="stylesheet" type="text/css" href="css/print.css" media="print" /> 
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1><a href="index.html">RealSoulful</a></h1>   
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">My Sanctuary</a></li>
+                    <li><a href="#">Soul Central</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+             <ul class="sub-nav">
+                <li ><a  href="#">Settings</li>
+                <li>|</li>
+                <li id="clickMe1"><a href="#">Log Out</a></li>
+            </ul>                 
+        </header> <!-- header ends here -->
+
+        <div id="personal-profile" class="container"><!-- page container starts here -->
+
+            <div class="col">
+
+                <div class="personal-cont">
+                    <img src="img/photo-placer.png" alt="photo-icon"/>
+                    <p>Name</p>
+                </div>
+                <div class="personal-cont">
+                    <h3>Gratitude</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Add Gratitude</a>
+                </div>
+                <div class="personal-cont">
+                    <h3>Intentions</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Add Intentions</a>
+                </div>
+
+            </div>
+
+            <div class="main-col">
+
+                <div class="slogan-container">
+                    <em class="fancy-text">&#8220;</em>
+                    <h2>Mantra</h2>
+                    <p>Lorem Ipsum dolar sit amet...</p>
+                    <a href="#">Change Mantra</a>
+                    <em class="fancy-text">&#8221;</em>
+                </div>
+
+                <nav class="animation-nav"> <!-- this is where the buttons are to go to the icon stuff -->
+                    <ul>
+                        <li>
+                            <button>Dandelion Blow</button>
+                        </li>                          
+                        <li>
+                            <button>Kindness</button>
+                        </li>
+                        <li>
+                            <button>Prayer</button>
+                        </li>
+                        <li>
+                            <button>Wish</button>
+                        </li>
+                    </ul>
+                </nav> <!-- this is where the buttons are to go to the icon stuff -->
+
+                <div class="options-container">
+                    <div class="journal-container">
+                        <h3>Journal</h3>
+                        <a href="#">Add Entry</a>
+                        <p>Lorem Ipsum dolar...</p>
+                    </div>
+                     <a class="lower-btn" href="#">Read More</a>
+                </div>
+
+                <div class="options-container">
+                    <div class="vision-container">
+                        <h3>Vision</h3>
+                        <a class="print-page" href="javascript:window.print()">Print This Section</a>
+                        <a href="#">Add Entry</a>
+                        <p>Lorem Ipsum dolar...</p>
+                        <div class="vis-cont-small">
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                            <img class="print" src="img/vision-img-placer-small.png" alt="vision-img-small"/>
+                        </div>
+                         <div class="vis-cont-large">
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+                            <img class="print" src="img/vision-img-placer-large.png" alt="vision-img-large"/>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+            <aside>
+
+
+            </aside>
+
+            <div class="profile-nav" id="tabs"> <!-- profile pages side nav starts -->
+
+                <ul>
+                    <li><a href="#tabs-1">Activity Log</a></li>
+                    <li><a href="#tabs-2">Groups</a></li>
+                    <li><a href="#tabs-3">Friends</a></li>
+                </ul>
+                <div id="tabs-1">
+
+                    <h2>Activity Log</h2>
+                    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+                </div>
+                <div id="tabs-2">
+
+                    <h2>Groups</h2>
+                    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+                </div>
+                <div id="tabs-3">
+
+                    <h2>Friends</h2>
+                    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+
+                </div>
+
+            </div> <!-- profile pages side nav ends -->
+
+        <footer class="inner-footer">
+            
+            <ul>
+                <li><a href="about.html">About</a></li>
+                <li><a href="about.html#help">Help</a></li>
+                <li><a href="about.html#terms">Terms</a></li>
+                <li><a href="about.html#privacy">Privacy</a></li>
+                <li><a href="about.html#advertising">Advertising</a></li>    
+                <li><a href="#">Resources</a></li>                         
+            </ul>
+
+        </footer>
+        </div>
+    <div><!-- page wrapper ends here -->
+
+<div id="slidebottom" class="slide"><!-- TEST NAV SLIDER -->
+  <button>slide it</button>
+  <div class="inner">stuff</div>
+</div> <!-- TEST NAV SLIDER -->
+
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+<script>
+
+    $(document).ready(function() {
+      $('#slidebottom button').click(function() {
+        var $marginLefty = $(this).next();
+        $marginLefty.animate({
+          marginLeft: parseInt($marginLefty.css('marginLeft'),10) == 0 ?
+            $marginLefty.outerWidth() :
+            0
+    });
+  });
+});
+
+</script>
+
+<script>
+
+    document.write("<input type='button' " +
+        "onClick='window.print()' " +
+        "class='printbutton' " +
+        "value='Print This Page'/>"
+);
+
+</script>
+
+<script>
+
+    $(function() {
+        $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+        $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+});
+
+</script>
+
+</body>
+</html>

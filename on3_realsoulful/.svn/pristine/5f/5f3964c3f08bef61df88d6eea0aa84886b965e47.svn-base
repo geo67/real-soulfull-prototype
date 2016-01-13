@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html >
+
+<head>
+    <meta charset="utf-8"/>
+    <title>Profile Page</title>
+    <link rel="stylesheet" type="text/css" href="css/global.css"/>
+    <link rel="stylesheet" type="text/css" href="css/responsiveslides.css"/>
+    <link rel="stylesheet" type="text/css" href="css/blueberry.css"/>
+    <link rel="stylesheet" type="text/css" href="css/form-layouts.css"/>    
+</head>
+
+<body>
+    <div class="page-wrapper"><!-- page wrapper starts here -->
+
+        <header> <!-- header starts here -->  
+            <h1>RealSoulful</h1>    
+            <nav class="main-nav">
+                <ul>
+                    <li><a href="#">My Sanctuary</a></li>
+                    <li><a href="#">Soul Central</a></li>
+                    <li><a href="#">Resources</a></li>
+                </ul>
+            </nav>
+             <ul class="sub-nav">
+                <li ><a  href="#">Settings</li>
+                <li>|</li>
+                <li id="clickMe1"><a href="#">Log Out</a></li>
+            </ul>                 
+        </header> <!-- header ends here -->
+
+        <div class="container"><!-- page container starts here -->
+
+            <div class="col">
+
+                <div class="personal-cont">
+                    <img/>
+                    <p>Name</p>
+                </div>
+                <div class="personal-cont">
+                    <h3>Gratitude</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Edit Gratitude</a>
+                </div>
+                <div class="personal-cont">
+                    <h3>Intentions</h3>
+                    <p>lorem ipsum</p>
+                    <a href="#">Edit Intentions</a>
+                </div>
+
+            </div>
+
+            <div class="main-col">
+            </div>
+
+            <aside>
+
+
+            </aside>
+
+            <div class="profile-nav" id="tabs"> <!-- profile pages side nav starts -->
+
+                <ul>
+                    <li><a href="#tabs-1">Activity Log</a></li>
+                    <li><a href="#tabs-2">Groups</a></li>
+                    <li><a href="#tabs-3">Friends</a></li>
+                </ul>
+                <div id="tabs-1">
+
+                    <h2>Activity Log</h2>
+                    <p>Proin elit arcu, rutrum commodo, vehicula tempus, commodo a, risus. Curabitur nec arcu. Donec sollicitudin mi sit amet mauris. Nam elementum quam ullamcorper ante. Etiam aliquet massa et lorem. Mauris dapibus lacus auctor risus. Aenean tempor ullamcorper leo. Vivamus sed magna quis ligula eleifend adipiscing. Duis orci. Aliquam sodales tortor vitae ipsum. Aliquam nulla. Duis aliquam molestie erat. Ut et mauris vel pede varius sollicitudin. Sed ut dolor nec orci tincidunt interdum. Phasellus ipsum. Nunc tristique tempus lectus.</p>
+
+                </div>
+                <div id="tabs-2">
+
+                    <h2>Groups</h2>
+                    <p>Morbi tincidunt, dui sit amet facilisis feugiat, odio metus gravida ante, ut pharetra massa metus id nunc. Duis scelerisque molestie turpis. Sed fringilla, massa eget luctus malesuada, metus eros molestie lectus, ut tempus eros massa ut dolor. Aenean aliquet fringilla sem. Suspendisse sed ligula in ligula suscipit aliquam. Praesent in eros vestibulum mi adipiscing adipiscing. Morbi facilisis. Curabitur ornare consequat nunc. Aenean vel metus. Ut posuere viverra nulla. Aliquam erat volutpat. Pellentesque convallis. Maecenas feugiat, tellus pellentesque pretium posuere, felis lorem euismod felis, eu ornare leo nisi vel felis. Mauris consectetur tortor et purus.</p>
+
+                </div>
+                <div id="tabs-3">
+
+                    <h2>Friends</h2>
+                    <p>Mauris eleifend est et turpis. Duis id erat. Suspendisse potenti. Aliquam vulputate, pede vel vehicula accumsan, mi neque rutrum erat, eu congue orci lorem eget lorem. Vestibulum non ante. Class aptent taciti sociosqu ad litora torquent per conubia nostra, per inceptos himenaeos. Fusce sodales. Quisque eu urna vel enim commodo pellentesque. Praesent eu risus hendrerit ligula tempus pretium. Curabitur lorem enim, pretium nec, feugiat nec, luctus a, lacus.</p>
+                    <p>Duis cursus. Maecenas ligula eros, blandit nec, pharetra at, semper at, magna. Nullam ac lacus. Nulla facilisi. Praesent viverra justo vitae neque. Praesent blandit adipiscing velit. Suspendisse potenti. Donec mattis, pede vel pharetra blandit, magna ligula faucibus eros, id euismod lacus dolor eget odio. Nam scelerisque. Donec non libero sed nulla mattis commodo. Ut sagittis. Donec nisi lectus, feugiat porttitor, tempor ac, tempor vitae, pede. Aenean vehicula velit eu tellus interdum rutrum. Maecenas commodo. Pellentesque nec elit. Fusce in lacus. Vivamus a libero vitae lectus hendrerit hendrerit.</p>
+
+                </div>
+
+            </div> <!-- profile pages side nav ends -->
+
+            <footer>
+                
+                <ul>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="#">Help</a></li>
+                    <li><a href="#">Terms</a></li>
+                    <li><a href="#">Privacy</a></li>
+                    <li><a href="#">Advertising</a></li>    
+                    <li><a href="#">Resources</a></li>                         
+                </ul>
+
+            </footer>
+        </div>
+    <div><!-- page wrapper ends here -->
+
+<script type="text/javascript" src="./js/jquery-1.8.3.min.js"></script>
+<script type="text/javascript" src="./js/jquery-ui-1.9.2.custom.js"></script>
+<script type="text/javascript" src="./js/jquery.blueberry.js"></script>
+
+ <script>
+    $(function() {
+    $("#tabs").tabs().addClass("ui-tabs-vertical ui-helper-clearfix");
+    $("#tabs li").removeClass("ui-corner-top").addClass("ui-corner-left");
+});
+</script>
+
+</script>
+
+</body>
+</html>
